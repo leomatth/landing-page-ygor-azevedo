@@ -1,6 +1,12 @@
 # Landing Page Ygor Azevedo Nutrição
 
-<img src="https://ygorazevedonutri.com.br/img/ygoraz_logo.png" width="80" height="80" alt="Logo Ygor Azevedo"> Landing page profissional e responsiva para o nutricionista Ygor Azevedo, desenvolvida com HTML, CSS (SASS) e JavaScript, inspirada no site oficial: [ygorazevedonutri.com.br](https://ygorazevedonutri.com.br).
+
+<div align="center">
+   <img src="https://ygorazevedonutri.com.br/img/ygoraz_logo.png" width="100" alt="Logo Ygor Azevedo" style="vertical-align: middle; margin-right:2rem; margin-left:2rem;" />
+   <span style="font-style:italic; font-size:1.1rem; margin-left:2rem; margin-right:2rem; display:inline-block; vertical-align: middle; text-align:center;">
+      Landing page profissional e responsiva para o nutricionista Ygor Azevedo, desenvolvida com HTML, CSS (SASS) e JavaScript, inspirada no site oficial: <a href="https://ygorazevedonutri.com.br">ygorazevedonutri.com.br</a>.
+   </span>
+</div>
 
 
 
