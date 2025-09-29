@@ -1,0 +1,330 @@
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #111;
+}
+
+.header {
+  background: #000;
+  color: #fff;
+}
+.header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+.header .navbar .logo {
+  height: 36px;
+}
+.header .navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+.header .navbar .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+.header .navbar .nav-links li a:hover {
+  color: #FFC300;
+}
+.header .hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+}
+.header .hero h1 {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+  color: #fff;
+}
+.header .hero p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+.header .hero .btn-primary {
+  background: #FFC300;
+  color: #111;
+  padding: 0.75rem 2rem;
+  border-radius: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: background 0.2s;
+}
+.header .hero .btn-primary:hover {
+  background: #cc9c00;
+}
+
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  padding: 3rem 2rem;
+}
+.sobre .sobre-img {
+  flex: 1 1 300px;
+  text-align: center;
+}
+.sobre .sobre-img img {
+  max-width: 280px;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.sobre .sobre-text {
+  flex: 2 1 400px;
+  padding: 1rem 2rem;
+}
+.sobre .sobre-text h2 {
+  color: #111;
+  margin-bottom: 1rem;
+}
+.sobre .sobre-text h2 span {
+  color: #FFC300;
+}
+.sobre .sobre-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.servicos {
+  background: #f5f5f5;
+  padding: 3rem 2rem;
+}
+.servicos h2 {
+  text-align: center;
+  color: #111;
+}
+.servicos h2 span {
+  color: #FFC300;
+}
+.servicos h2 {
+  margin-bottom: 2rem;
+}
+.servicos .servicos-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.servicos .servicos-list .servico {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  flex: 1 1 260px;
+  min-width: 220px;
+  max-width: 340px;
+}
+.servicos .servicos-list .servico h3 {
+  color: #111;
+}
+.servicos .servicos-list .servico h3 span {
+  color: #FFC300;
+}
+.servicos .servicos-list .servico h3 {
+  margin-bottom: 1rem;
+}
+.servicos .servicos-list .servico p {
+  margin-bottom: 1.5rem;
+}
+.servicos .servicos-list .servico .btn-secondary {
+  background: #FFC300;
+  color: #111;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: background 0.2s;
+}
+.servicos .servicos-list .servico .btn-secondary:hover {
+  background: #cc9c00;
+}
+
+.feedbacks {
+  background: #fff;
+  padding: 3rem 2rem;
+}
+.feedbacks h2 {
+  text-align: center;
+  color: #111;
+}
+.feedbacks h2 span {
+  color: #FFC300;
+}
+.feedbacks h2 {
+  margin-bottom: 2rem;
+}
+.feedbacks .feedbacks-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.feedbacks .feedbacks-list .feedback {
+  background: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+  flex: 1 1 260px;
+  min-width: 220px;
+  max-width: 340px;
+  text-align: center;
+}
+.feedbacks .feedbacks-list .feedback img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.feedbacks .feedbacks-list .feedback p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.feedbacks .feedbacks-list .feedback span {
+  font-weight: 700;
+  color: #FFC300;
+}
+
+.contato {
+  background: #f5f5f5;
+  padding: 3rem 2rem;
+}
+.contato h2 {
+  text-align: center;
+  color: #111;
+}
+.contato h2 span {
+  color: #FFC300;
+}
+.contato h2 {
+  margin-bottom: 2rem;
+}
+.contato .contato-info {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 2rem;
+}
+.contato .contato-info p, .contato .contato-info ul {
+  margin-bottom: 1rem;
+}
+.contato .contato-info ul {
+  padding-left: 1.2rem;
+}
+.contato .contato-info .contato-redes {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.contato .contato-info .contato-redes a {
+  color: #FFC300;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.2s;
+}
+.contato .contato-info .contato-redes a:hover {
+  color: #000;
+}
+
+.footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+  .header .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .header .navbar .logo {
+    height: 32px;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    align-self: center;
+  }
+  .header .navbar .nav-links {
+    flex: 1;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .header .navbar .nav-links li a {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+  .header .hero h1 {
+    font-size: 1.3rem;
+  }
+  .header .hero p {
+    font-size: 0.95rem;
+  }
+  .sobre, .servicos-list, .feedbacks-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sobre-text {
+    padding: 1rem 0;
+  }
+}
+@media (max-width: 600px) {
+  .header .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.7rem;
+    padding: 0.3rem 0.3rem;
+  }
+  .header .navbar .logo {
+    height: 28px;
+    margin-bottom: 0;
+    margin-right: 0.7rem;
+    align-self: center;
+  }
+  .header .navbar .nav-links {
+    flex: 1;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .header .navbar .nav-links li a {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .header .hero h1 {
+    font-size: 1.1rem;
+  }
+  .header .hero p {
+    font-size: 0.9rem;
+  }
+  .sobre, .servicos, .feedbacks, .contato {
+    padding: 2rem 1rem;
+  }
+  .servicos-list .servico, .feedbacks-list .feedback {
+    max-width: 100%;
+    min-width: 0;
+  }
+  .contato-info {
+    padding: 1rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
